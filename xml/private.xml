@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<root>
+    
+    <item>
+        <name>F18 to Control_L</name>
+        <identifier>private.f18_control</identifier>
+        <autogen>__KeyToKey__ KeyCode::F18, KeyCode::CONTROL_L</autogen>
+    </item>
+    
+    <item>
+        <name>F19 to KANA</name>
+        <identifier>private.f19_kana</identifier>
+        <autogen>__KeyToKey__ KeyCode::F19, KeyCode::JIS_KANA</autogen>
+    </item>
+    
+    <item>
+        <name>Option_L to EISUU</name>
+        <identifier>private.option_eisuu</identifier>
+        <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::JIS_EISUU</autogen>
+    </item>
+
+    <item>
+        <name>Mouse Button 4 & 5 to Browser Forward & Backward</name>
+        <identifier>remap.mouse_button_4_5_forward_backward</identifier>
+        <autogen>--PointingButtonToKey-- PointingButton::BUTTON4, KeyCode::JIS_BRACKET_LEFT,  ModifierFlag::COMMAND_L</autogen>
+        <autogen>--PointingButtonToKey-- PointingButton::BUTTON5, KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::COMMAND_L</autogen>
+    </item>
+
+    <item>
+        <name>AquaSKK</name>
+        <appdef>
+            <appname>Terminal</appname>
+            <equal>com.googlecode.iterm2</equal>
+            <equal>com.apple.Terminal</equal>
+        </appdef>
+        <list>
+            <item>
+                 <name>Ctrl-J to Kana on Apple Terminal/iTerm2</name>
+                 <only>Terminal</only>
+                 <identifier>private.iterm2.ctrl_j_to_kana</identifier>
+                 <autogen>
+                     __KeyToKey__
+                     KeyCode::J, ModifierFlag::CONTROL_L,
+                     KeyCode::JIS_KANA
+                 </autogen>
+            </item>
+            <item>
+                 <name>Ctrl-J to Kana on Apple Terminal/iTerm2 for Dvorak user</name>
+                 <only>Terminal</only>
+                 <identifier>private.iterm2.ctrl_j_to_kana.dvorak</identifier>
+                 <autogen>
+                     __KeyToKey__
+                     KeyCode::C, ModifierFlag::CONTROL_L,
+                     KeyCode::JIS_KANA
+                 </autogen>
+            </item>
+        </list>
+    </item>
+</root>
