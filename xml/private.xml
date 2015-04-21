@@ -68,11 +68,11 @@
     </item>
 
     <item>
-        <name>Dvorak</name>
+        <name>Dvorak-like</name>
         <list>
             <item>
-                 <name>Qwerty to Dvorak-like layout</name>
-                 <identifier>private.qwerty2dvorak</identifier>
+                 <name>Qwerty to Dvorak-like layout for Japanese keyboard</name>
+                 <identifier>private.qwerty2dvorak-japanese</identifier>
                  <autogen> __KeyToKey__ KeyCode::Q,              KeyCode::JIS_ATMARK        </autogen>
                  <autogen> __KeyToKey__ KeyCode::W,              KeyCode::COMMA             </autogen>
                  <autogen> __KeyToKey__ KeyCode::E,              KeyCode::DOT               </autogen>
@@ -114,6 +114,47 @@
                  <autogen> __KeyToKey__ KeyCode::DOT,            KeyCode::P                 </autogen>
                  <autogen> __KeyToKey__ KeyCode::SLASH,          KeyCode::Z                 </autogen>
                  <autogen> __KeyToKey__ KeyCode::JIS_UNDERSCORE, KeyCode::SLASH             </autogen>
+            </item>
+
+            <item>
+                 <name>Qwerty to Dvorak-like layout for US keyboard</name>
+                 <identifier>private.qwerty2dvorak-us</identifier>
+                 <autogen> __KeyToKey__ KeyCode::Q,              KeyCode::SLASH             </autogen>
+                 <autogen> __KeyToKey__ KeyCode::W,              KeyCode::COMMA             </autogen>
+                 <autogen> __KeyToKey__ KeyCode::E,              KeyCode::DOT               </autogen>
+                 <autogen> __KeyToKey__ KeyCode::R,              KeyCode::V                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::T,              KeyCode::Y                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::Y,              KeyCode::F                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::U,              KeyCode::G                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::I,              KeyCode::K                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::O,              KeyCode::R                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::P,              KeyCode::J                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::BRACKET_LEFT,   KeyCode::BRACKET_LEFT      </autogen>
+                 <autogen> __KeyToKey__ KeyCode::BRACKET_RIGHT,  KeyCode::BRACKET_RIGHT     </autogen>
+                 <autogen> __KeyToKey__ KeyCode::BACKSLASH,      KeyCode::BACKSLASH         </autogen>
+
+                 <autogen> __KeyToKey__ KeyCode::A,              KeyCode::A                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::S,              KeyCode::O                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::D,              KeyCode::E                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::F,              KeyCode::U                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::G,              KeyCode::I                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::H,              KeyCode::D                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::J,              KeyCode::H                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::K,              KeyCode::T                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::L,              KeyCode::N                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::SEMICOLON,      KeyCode::S                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::QUOTE,          KeyCode::QUOTE             </autogen>
+
+                 <autogen> __KeyToKey__ KeyCode::Z,              KeyCode::SEMICOLON         </autogen>
+                 <autogen> __KeyToKey__ KeyCode::X,              KeyCode::Q                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::C,              KeyCode::L                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::V,              KeyCode::C                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::B,              KeyCode::X                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::N,              KeyCode::B                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::M,              KeyCode::M                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::COMMA,          KeyCode::W                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::DOT,            KeyCode::P                 </autogen>
+                 <autogen> __KeyToKey__ KeyCode::SLASH,          KeyCode::Z                 </autogen>
             </item>
         </list>
     </item>
