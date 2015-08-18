@@ -18,6 +18,8 @@ $cli set remap.mouse_button_4_5_forward_backward 1
 /bin/echo -n .
 $cli set remap.jis_eisuu2shiftL 1
 /bin/echo -n .
+$cli set remap.pclikehomeend_emacs 1
+/bin/echo -n .
 $cli set private.option_eisuu 1
 /bin/echo -n .
 $cli set remap.pc_application2controlL 1

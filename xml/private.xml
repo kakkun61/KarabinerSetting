@@ -20,7 +20,7 @@
     </item>
 
     <item>
-        <name>Mouse Button 4 & 5 to Browser Forward & Backward</name>
+        <name>Mouse Button 4 &amp; 5 to Browser Forward &amp; Backward</name>
         <identifier>remap.mouse_button_4_5_forward_backward</identifier>
         <autogen>--PointingButtonToKey-- PointingButton::BUTTON4, KeyCode::JIS_BRACKET_LEFT,  ModifierFlag::COMMAND_L</autogen>
         <autogen>--PointingButtonToKey-- PointingButton::BUTTON5, KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::COMMAND_L</autogen>

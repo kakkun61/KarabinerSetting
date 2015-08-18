@@ -16,13 +16,13 @@ $cli set remap.controlR2commandR 1
 /bin/echo -n .
 $cli set remap.mouse_button_4_5_forward_backward 1
 /bin/echo -n .
+$cli set private.iterm2.ctrl_j_to_kana.dvorak_like 1
+/bin/echo -n .
 $cli set repeat.wait 33
 /bin/echo -n .
 $cli set remap.shiftL2commandL 1
 /bin/echo -n .
 $cli set remap.pointing_relative_fn_to_scroll 1
-/bin/echo -n .
-$cli set private.iterm2.ctrl_j_to_kana 1
 /bin/echo -n .
 $cli set general.dont_remap_internal 1
 /bin/echo -n .
